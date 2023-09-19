@@ -14,6 +14,8 @@
 		6BFAD5632AB9A8AE006F98D6 /* CaturdayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BFAD5622AB9A8AE006F98D6 /* CaturdayTests.swift */; };
 		6BFAD56D2AB9A8AE006F98D6 /* CaturdayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BFAD56C2AB9A8AE006F98D6 /* CaturdayUITests.swift */; };
 		6BFAD56F2AB9A8AE006F98D6 /* CaturdayUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BFAD56E2AB9A8AE006F98D6 /* CaturdayUITestsLaunchTests.swift */; };
+		6BFAD5822AB9B30E006F98D6 /* BreedModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BFAD5812AB9B30E006F98D6 /* BreedModel.swift */; };
+		6BFAD5842AB9B7E0006F98D6 /* BreedImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BFAD5832AB9B7E0006F98D6 /* BreedImageModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		6BFAD5682AB9A8AE006F98D6 /* CaturdayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CaturdayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BFAD56C2AB9A8AE006F98D6 /* CaturdayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaturdayUITests.swift; sourceTree = "<group>"; };
 		6BFAD56E2AB9A8AE006F98D6 /* CaturdayUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaturdayUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6BFAD5812AB9B30E006F98D6 /* BreedModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreedModel.swift; sourceTree = "<group>"; };
+		6BFAD5832AB9B7E0006F98D6 /* BreedImageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreedImageModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,11 +78,11 @@
 		6BFAD5452AB9A8AD006F98D6 = {
 			isa = PBXGroup;
 			children = (
+				6BFAD5502AB9A8AD006F98D6 /* Caturday */,
 				6BFAD57E2AB9B172006F98D6 /* Network */,
-				6BFAD57D2AB9B161006F98D6 /* ViewModel */,
 				6BFAD57C2AB9B15B006F98D6 /* Model */,
 				6BFAD57B2AB9B154006F98D6 /* View */,
-				6BFAD5502AB9A8AD006F98D6 /* Caturday */,
+				6BFAD57D2AB9B161006F98D6 /* ViewModel */,
 				6BFAD5612AB9A8AE006F98D6 /* CaturdayTests */,
 				6BFAD56B2AB9A8AE006F98D6 /* CaturdayUITests */,
 				6BFAD54F2AB9A8AD006F98D6 /* Products */,
@@ -141,6 +145,8 @@
 		6BFAD57C2AB9B15B006F98D6 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				6BFAD5812AB9B30E006F98D6 /* BreedModel.swift */,
+				6BFAD5832AB9B7E0006F98D6 /* BreedImageModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -289,7 +295,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6BFAD5822AB9B30E006F98D6 /* BreedModel.swift in Sources */,
 				6BFAD5542AB9A8AD006F98D6 /* ContentView.swift in Sources */,
+				6BFAD5842AB9B7E0006F98D6 /* BreedImageModel.swift in Sources */,
 				6BFAD5522AB9A8AD006F98D6 /* CaturdayApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
