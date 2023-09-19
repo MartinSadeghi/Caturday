@@ -74,6 +74,10 @@
 		6BFAD5452AB9A8AD006F98D6 = {
 			isa = PBXGroup;
 			children = (
+				6BFAD57E2AB9B172006F98D6 /* Network */,
+				6BFAD57D2AB9B161006F98D6 /* ViewModel */,
+				6BFAD57C2AB9B15B006F98D6 /* Model */,
+				6BFAD57B2AB9B154006F98D6 /* View */,
 				6BFAD5502AB9A8AD006F98D6 /* Caturday */,
 				6BFAD5612AB9A8AE006F98D6 /* CaturdayTests */,
 				6BFAD56B2AB9A8AE006F98D6 /* CaturdayUITests */,
@@ -125,6 +129,34 @@
 				6BFAD56E2AB9A8AE006F98D6 /* CaturdayUITestsLaunchTests.swift */,
 			);
 			path = CaturdayUITests;
+			sourceTree = "<group>";
+		};
+		6BFAD57B2AB9B154006F98D6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6BFAD57C2AB9B15B006F98D6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6BFAD57D2AB9B161006F98D6 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		6BFAD57E2AB9B172006F98D6 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
