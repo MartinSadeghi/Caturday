@@ -8,7 +8,7 @@
 import Foundation
 
 
-struct Breed : Codable {
+struct Breed : Codable, Identifiable {
     let weight : Weight?
     let id : String?
     let name : String?
@@ -128,5 +128,6 @@ struct Breed : Codable {
         hypoallergenic = try values.decodeIfPresent(Int.self, forKey: .hypoallergenic)
         reference_image_id = try values.decodeIfPresent(String.self, forKey: .reference_image_id)
     }
+    
 
 }

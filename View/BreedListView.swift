@@ -10,7 +10,11 @@ import SwiftUI
 struct BreedListView: View {
     let breeds: [Breed]
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        List {
+            ForEach(breeds) { breed in
+                Text(breed.name ?? "")
+            }
+        }
     }
 }
 

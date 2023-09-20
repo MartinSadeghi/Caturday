@@ -10,12 +10,33 @@ import Foundation
 
 class BreedFetcher: ObservableObject {
     
-    var breeds = [Breed]()
-    var errorMessage: String? = nil
-    var isLoading = false
+    @Published var breeds = [Breed]()
+    @Published var errorMessage: String? = nil
+    @Published var isLoading = false
     
     init() {
         fetchAllBreeds()
+    }
+    
+    
+    func fetchAllBreeds() {
+        isLoading = true
+        errorMessage = nil
+        let apiService = APIService()
+        guard let url = URL(string: "https://api.thecatapi.com/v1/breeds") else { return }
+        apiService.fetchBreeds(url: url) { [weak self] result in
+            DispatchQueue.main.async {
+                self?.isLoading = false
+                switch result {
+                case .success(let breeds):
+                    self?.breeds = breeds
+                case .failure(let error):
+                    self?.errorMessage = error.localizedDescription
+                }
+            }
+        }
+        
+        
     }
     
 //    func fetchAllBreeds() {
