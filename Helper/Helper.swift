@@ -8,8 +8,7 @@
 import Foundation
 
 
-enum Helper {
-    
+class Helper {
     
     static func errorState() -> BreedFetcher {
         let fetcher = BreedFetcher()
@@ -19,7 +18,7 @@ enum Helper {
     
     static func successState() -> BreedFetcher {
         let fetcher = BreedFetcher()
-        fetcher.breeds = []
+        fetcher.breeds = [BreedExamples.example1(), BreedExamples.example2()]
         return fetcher
     }
 

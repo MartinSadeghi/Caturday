@@ -27,8 +27,8 @@
 		6BFAD5972AB9FF18006F98D6 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BFAD5962AB9FF18006F98D6 /* Helper.swift */; };
 		6BFAD5992ABA00A5006F98D6 /* BreedExamples.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BFAD5982ABA00A5006F98D6 /* BreedExamples.swift */; };
 		6BFAD59B2ABAFC63006F98D6 /* BreedRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BFAD59A2ABAFC63006F98D6 /* BreedRow.swift */; };
-		6BFAD59D2ABAFCE1006F98D6 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BFAD59C2ABAFCE1006F98D6 /* DetailView.swift */; };
 		6BFAD59F2ABAFF9C006F98D6 /* BreedModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BFAD59E2ABAFF9C006F98D6 /* BreedModel.swift */; };
+		6BFAD5A12ABB2A12006F98D6 /* BreedDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BFAD5A02ABB2A12006F98D6 /* BreedDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,8 +72,8 @@
 		6BFAD5962AB9FF18006F98D6 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
 		6BFAD5982ABA00A5006F98D6 /* BreedExamples.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreedExamples.swift; sourceTree = "<group>"; };
 		6BFAD59A2ABAFC63006F98D6 /* BreedRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreedRow.swift; sourceTree = "<group>"; };
-		6BFAD59C2ABAFCE1006F98D6 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		6BFAD59E2ABAFF9C006F98D6 /* BreedModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreedModel.swift; sourceTree = "<group>"; };
+		6BFAD5A02ABB2A12006F98D6 /* BreedDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreedDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,7 +167,7 @@
 			children = (
 				6BFAD5872AB9CC82006F98D6 /* BreedListView.swift */,
 				6BFAD59A2ABAFC63006F98D6 /* BreedRow.swift */,
-				6BFAD59C2ABAFCE1006F98D6 /* DetailView.swift */,
+				6BFAD5A02ABB2A12006F98D6 /* BreedDetailView.swift */,
 				6BFAD5892AB9CC92006F98D6 /* ErrorView.swift */,
 				6BFAD58B2AB9CC9E006F98D6 /* LoadingView.swift */,
 			);
@@ -350,9 +350,9 @@
 				6BFAD5902AB9D18D006F98D6 /* Weight.swift in Sources */,
 				6BFAD58A2AB9CC92006F98D6 /* ErrorView.swift in Sources */,
 				6BFAD59F2ABAFF9C006F98D6 /* BreedModel.swift in Sources */,
+				6BFAD5A12ABB2A12006F98D6 /* BreedDetailView.swift in Sources */,
 				6BFAD5992ABA00A5006F98D6 /* BreedExamples.swift in Sources */,
 				6BFAD59B2ABAFC63006F98D6 /* BreedRow.swift in Sources */,
-				6BFAD59D2ABAFCE1006F98D6 /* DetailView.swift in Sources */,
 				6BFAD58C2AB9CC9E006F98D6 /* LoadingView.swift in Sources */,
 				6BFAD5522AB9A8AD006F98D6 /* CaturdayApp.swift in Sources */,
 				6BFAD5882AB9CC82006F98D6 /* BreedListView.swift in Sources */,
