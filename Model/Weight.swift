@@ -14,7 +14,6 @@ struct Weight : Codable {
     let metric : String?
 
     enum CodingKeys: String, CodingKey {
-
         case imperial = "imperial"
         case metric = "metric"
     }
