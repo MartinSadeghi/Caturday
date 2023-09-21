@@ -14,6 +14,7 @@ class BreedExamples {
         return Breed(name: "Abyssinian",
                      id: "abys",
                      temperament: "Active, Energetic, Independent, Intelligent, Gentle",
+                     description: "A beautiful cat",
                      energyLevel: 5,
                      hairless: false,
                      image: BreedImage(height: 100, id: "i", url: "https://cdn2.thecatapi.com/images/unX21IBVB.jpg", width: 100))
@@ -24,6 +25,7 @@ class BreedExamples {
         return Breed(name: "Persian",
                      id: "absdys",
                      temperament: "Active, Energetic, Independent, Intelligent, Gentle",
+                     description: "Never will come the same",
                      energyLevel: 9,
                      hairless: false,
                      image: BreedImage(height: 100,

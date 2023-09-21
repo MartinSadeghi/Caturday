@@ -12,19 +12,21 @@ struct Breed : Codable, Identifiable {
     let id                 : String?
     let name               : String?
     let temperament        : String?
+    let description        : String?
     let energy_level       : Int?
     let hairless           : Bool
     let image              : BreedImage?
     
-    var description: String {
-            return "breed with name: \(name ?? "") and id \(id ?? ""), energy level: \(energy_level ?? 0) isHairless: \(hairless ? "YES" : "NO")"
-        }
+//    var description: String {
+//            return "breed with name: \(name ?? "") and id \(id ?? ""), energy level: \(energy_level ?? 0) isHairless: \(hairless ? "YES" : "NO")"
+//        }
 
     enum CodingKeys: String, CodingKey {
 
         case id = "id"
         case name = "name"
         case temperament = "temperament"
+        case description = "description"
         case energy_level = "energy_level"
         case hairless = "hairless"
         case image
@@ -36,6 +38,7 @@ struct Breed : Codable, Identifiable {
         id = try values.decodeIfPresent(String.self, forKey: .id)
         name = try values.decodeIfPresent(String.self, forKey: .name)
         temperament = try values.decodeIfPresent(String.self, forKey: .temperament)
+        description = try values.decodeIfPresent(String.self, forKey: .description)
         energy_level = try values.decodeIfPresent(Int.self, forKey: .energy_level)
         let isHairless = try values.decodeIfPresent(Int.self, forKey: .hairless)
         hairless = isHairless == 1
@@ -44,7 +47,7 @@ struct Breed : Codable, Identifiable {
     
     
     
-    init(name: String, id: String, temperament: String,
+    init(name: String, id: String, temperament: String, description: String,
          energyLevel: Int, hairless: Bool, image: BreedImage?) {
         self.name = name
         self.id = id
@@ -52,6 +55,7 @@ struct Breed : Codable, Identifiable {
         self.energy_level = energyLevel
         self.hairless = hairless
         self.image = image
+        self.description = description
     }
     
     
