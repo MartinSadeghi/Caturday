@@ -178,10 +178,10 @@
 			isa = PBXGroup;
 			children = (
 				6BFAD59E2ABAFF9C006F98D6 /* BreedModel.swift */,
+				6BFAD5832AB9B7E0006F98D6 /* BreedImageModel.swift */,
 				6BFAD58D2AB9D116006F98D6 /* BreedModelFull.swift */,
 				6BFAD58F2AB9D18D006F98D6 /* Weight.swift */,
 				6BFAD5812AB9B30E006F98D6 /* BreedModel+.swift */,
-				6BFAD5832AB9B7E0006F98D6 /* BreedImageModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
