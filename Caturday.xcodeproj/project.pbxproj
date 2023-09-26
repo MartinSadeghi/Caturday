@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6BCD96192AC2DC8F00F4BB3E /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BCD96182AC2DC8F00F4BB3E /* Constant.swift */; };
 		6BFAD5522AB9A8AD006F98D6 /* CaturdayApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BFAD5512AB9A8AD006F98D6 /* CaturdayApp.swift */; };
 		6BFAD5542AB9A8AD006F98D6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BFAD5532AB9A8AD006F98D6 /* ContentView.swift */; };
 		6BFAD5562AB9A8AE006F98D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BFAD5552AB9A8AE006F98D6 /* Assets.xcassets */; };
@@ -49,6 +50,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6BCD96182AC2DC8F00F4BB3E /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		6BFAD54E2AB9A8AD006F98D6 /* Caturday.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Caturday.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BFAD5512AB9A8AD006F98D6 /* CaturdayApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaturdayApp.swift; sourceTree = "<group>"; };
 		6BFAD5532AB9A8AD006F98D6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -208,6 +210,7 @@
 			children = (
 				6BFAD5962AB9FF18006F98D6 /* Helper.swift */,
 				6BFAD5982ABA00A5006F98D6 /* BreedExamples.swift */,
+				6BCD96182AC2DC8F00F4BB3E /* Constant.swift */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -353,6 +356,7 @@
 				6BFAD5A12ABB2A12006F98D6 /* BreedDetailView.swift in Sources */,
 				6BFAD5992ABA00A5006F98D6 /* BreedExamples.swift in Sources */,
 				6BFAD59B2ABAFC63006F98D6 /* BreedRow.swift in Sources */,
+				6BCD96192AC2DC8F00F4BB3E /* Constant.swift in Sources */,
 				6BFAD58C2AB9CC9E006F98D6 /* LoadingView.swift in Sources */,
 				6BFAD5522AB9A8AD006F98D6 /* CaturdayApp.swift in Sources */,
 				6BFAD5882AB9CC82006F98D6 /* BreedListView.swift in Sources */,
