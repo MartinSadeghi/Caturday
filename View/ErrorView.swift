@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+
 struct ErrorView: View {
     @ObservedObject var breedFetcher: BreedFetcher
     var body: some View {
@@ -14,6 +15,11 @@ struct ErrorView: View {
             Text("😿")
                 .font(.system(size: 65))
             Text(breedFetcher.errorMessage ?? "")
+            Button {
+                breedFetcher.fetchAllBreeds()
+            } label: {
+                 Text("Try again!")
+            }
         }
     }
 }
