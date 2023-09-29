@@ -23,7 +23,7 @@ class BreedFetcher: ObservableObject {
         isLoading = true
         errorMessage = nil
         let apiService = APIService()
-        guard let url = URL(string: "https://api.thecatapi.com/v1/breeds?api_key=live_XKtBd9LQilC4ztESKW4khbnb8O5exF3fzVeSBlb6hWnzp24L2ept2qvDmEH1NaiM") else { return }
+        guard let url = URL(string:Constanat.APIKEY) else { return }
         apiService.fetchBreeds(url: url) { [weak self] result in
             DispatchQueue.main.async {
                 self?.isLoading = false
